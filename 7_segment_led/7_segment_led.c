@@ -1,0 +1,250 @@
+#include<avr/io.h>
+#define F_CPU 16000000UL
+#include<util/delay.h>
+void main()
+{ 
+   DDRB=0b11111111;
+   while(1)
+   {
+     PORTB=0b11000000;
+	
+	DDRA=0b11111111;
+	 PORTA=0b11000000;  //FOR 0
+	 _delay_ms(1000);
+     PORTA=0b11111001;  //FOR 1
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+	
+	
+	 PORTB=0b11111001;
+     DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+     _delay_ms(1000);
+	 
+	 
+	 PORTB=0b10100100;
+     DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+     _delay_ms(1000);
+	 
+	 
+	 PORTB=0b10110000;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+
+
+	 PORTB=0b10011001;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+	 
+	 
+	 PORTB=0b10010010;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	  _delay_ms(1000);
+
+
+	 PORTB=0b10000010;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+
+
+	 PORTB=0b11111000;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+
+
+	 PORTB=0b10000000;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+
+
+	 PORTB=0b10011000;
+	 DDRA=0b11111111;
+	 PORTA=0b11000000;
+	 _delay_ms(1000);
+     PORTA=0b11111001;
+	 _delay_ms(1000);
+	 PORTA=0b10100100;
+	 _delay_ms(1000);
+	 PORTA=0b10110000;
+	 _delay_ms(1000);
+	 PORTA=0b10011001;
+	 _delay_ms(1000);
+	 PORTA=0b10010010;
+	 _delay_ms(1000);
+	 PORTA=0b10000010;
+	 _delay_ms(1000);
+	 PORTA=0b11111000;
+	 _delay_ms(1000);
+	 PORTA=0b10000000;
+	 _delay_ms(1000);
+	 PORTA=0b10011000;
+	 _delay_ms(1000);
+	 }
+	 }
+	 
